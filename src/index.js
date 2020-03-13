@@ -38,9 +38,9 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
-    var str ='';
-    var letter = '';
-    var arr = [];
+    let str ='';
+    let letter = '';
+    let arr = [];
     for(i = 0; i < expr.length; i += 10){
         arr.push(expr.slice(i, i+10));
     }
